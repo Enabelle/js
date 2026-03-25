@@ -21,6 +21,6 @@
 var game = new Phaser.Game(config);
 
 let seedcounter = 0
-let life = 5 
+let life = 2; 
 let ocacounter = 0;
 let datecounter = 0;
