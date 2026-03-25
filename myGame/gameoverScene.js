@@ -10,7 +10,7 @@ class gameoverScene extends Phaser.Scene {
     }
 
     create () {
-        this.add.image(320, 320, "gameover").setScale(0.5);
+        this.add.image(320, 320, "gameover").setScale(0.6);
 
         //this.input.once('pointerdown', function(){
         var spaceDown = this.input.keyboard.addKey('SPACE');
