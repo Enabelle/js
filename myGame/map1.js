@@ -253,12 +253,6 @@ if (
         }
     }
 
-    // ── Seedpickup — sets the gate flag ─────────────────────
-    collectseed(player, seed) {
-        seed.destroy();
-        this.seedCollected = true;   // unlocks the exit gate
-    }
-
     world() {
         console.log("world function");
         let playerPos = { x: 400, y: 950 };
