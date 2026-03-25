@@ -254,7 +254,7 @@ if (
     }
 
     // ── Seedpickup — sets the gate flag ─────────────────────
-    collectseed(player, shirt) {
+    collectseed(player, seed) {
         seed.destroy();
         this.seedCollected = true;   // unlocks the exit gate
         this.inventory.push('seed');
