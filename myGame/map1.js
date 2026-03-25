@@ -55,7 +55,7 @@ class map1 extends Phaser.Scene {
         ).setScrollFactor(0).setDepth(999);
 
         this.lifeText = this.add.text(
-            200, 100, 'life: 5', { fontSize: '24px', fill: '#ff00ff' }
+            200, 100, 'life: 2', { fontSize: '24px', fill: '#ff00ff' }
         ).setScrollFactor(0).setDepth(999);
 
         // ── Warning text ───────────────────────────────────────
