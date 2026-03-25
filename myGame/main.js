@@ -11,7 +11,7 @@ class main extends Phaser.Scene {
     preload() {
 
         this.load.image("start", "assets/start.png")
-        this.load.audio("bgMusic", "assets/Bgaudio.mp3")
+        this.load.audio("bgMusic", "assets/BGaudio.mp3")
     }
 
     create() {
