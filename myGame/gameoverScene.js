@@ -10,14 +10,14 @@ class gameoverScene extends Phaser.Scene {
     }
 
     create () {
-        this.add.image(320,320,"gameover")
+        this.add.image(320, 320, "gameover").setScale(0.5);
 
         //this.input.once('pointerdown', function(){
         var spaceDown = this.input.keyboard.addKey('SPACE');
         
         spaceDown.on('down', function(){
         console.log("Spacebar pressed, goto endScene");
-        this.scene.start("preloadScene");
+        this.scene.start("map1");
         }, this );
 
     }
