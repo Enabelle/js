@@ -243,8 +243,8 @@ class world extends Phaser.Scene {
     this.cameras.main.setBounds(0, 0, mapWidth, mapHeight);
 
 
-    this.physics.world.bounds.width = groundLayer.width;
-    this.physics.world.bounds.height = groundLayer.height;
+    this.physics.world.bounds.width = map.widthInPixels;
+this.physics.world.bounds.height = map.heightInPixels;
 
     this.player.setCollideWorldBounds(true)
 
